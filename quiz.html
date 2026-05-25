@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online Quiz</title>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
+
+<script src="main.js" defer></script>
+<script src="quiz.js" defer></script>
+
+</head>
+<body>
+
+<div class="container" style="padding:40px 0;">
+
+<h2>Computer Knowledge Quiz</h2>
+
+<!-- Name Section -->
+<div id="startSection">
+    <input class="w3-input w3-margin-bottom" type="text" id="studentName" placeholder="Enter Your Name">
+    <button class="w3-button w3-blue" onclick="startQuiz()">Start Quiz</button>
+</div>
+
+<!-- Quiz Section -->
+<div id="quizSection" style="display:none;">
+    <div id="timer" style="font-weight:bold; margin-bottom:15px;"></div>
+    <div id="questionBox"></div>
+    <button class="w3-button w3-green w3-margin-top" onclick="nextQuestion()">Next</button>
+</div>
+
+<!-- Result Section -->
+<div id="resultSection" style="display:none;">
+    <h3 id="scoreText"></h3>
+    <button class="w3-button w3-blue" onclick="generateCertificate()">Generate Certificate</button>
+</div>
+
+<!-- Certificate Section -->
+<div id="certificateSection" class="certificate">
+
+<div class="cert-border">
+
+<img src="logo.png" class="cert-logo">
+
+<h1>Certificate of Achievement</h1>
+
+<p>This is proudly presented to</p>
+
+<h2 id="certName"></h2>
+
+<p>For successfully completing the</p>
+
+<h3>Computer Knowledge Online Quiz</h3>
+
+<p id="certScore"></p>
+
+<p class="cert-date"></p>
+
+
+<button class="w3-button w3-black" onclick="window.print()">Print Certificate</button>
+
+</div>
+</div>
+
+</body>
+</html>
