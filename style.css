@@ -1,0 +1,267 @@
+body{
+margin:0;
+font-family:'Segoe UI', Arial, sans-serif;
+background:#f5f7fa;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+//TOP BAR
+
+.top-bar{
+background:#002147;
+color:white;
+font-size:14px;
+padding:6px 0;
+}
+
+.top-bar .container{
+display:flex;
+justify-content:space-between;
+}
+
+//HEADER
+
+.header{
+background:white;
+padding:20px 0;
+border-bottom:1px solid #eee;
+}
+
+.header-inner{
+max-width:1200px;
+margin:auto;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+
+.logo{
+height:80px;
+margin-right:20px;
+}
+
+.title-block h1{
+margin:0;
+font-size:26px;
+color:#002147;
+}
+
+.title-block p{
+margin:0;
+font-size:14px;
+color:#666;
+}
+
+/* ===== NAVBAR ===== */
+
+.navbar{
+width:100%;
+background:#003366;
+}
+
+.nav-inner{
+max-width:1200px;
+margin:auto;
+display:flex;
+justify-content:center;
+}
+
+.nav-inner a{
+color:white;
+text-decoration:none;
+padding:18px 24px;
+display:block;
+font-weight:500;
+}
+
+.nav-inner a:hover{
+background:#0055aa;
+}
+
+/* ===== HERO SECTION ===== */
+
+.hero{
+background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1');
+background-size:cover;
+background-position:center;
+height:80vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+.hero h1{
+font-size:48px;
+}
+
+/* ===== SECTIONS ===== */
+
+.section{
+padding:80px 0;
+}
+
+.white-section{
+background:white;
+}
+
+.grey-section{
+background:#f2f4f8;
+}
+
+/* ===== NOTICE BOARD ===== */
+
+.notice-box{
+background:white;
+padding:25px;
+border-radius:6px;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+.notice-box h3{
+margin-top:0;
+color:#003366;
+}
+
+.notice-box li{
+padding:8px 0;
+border-bottom:1px solid #eee;
+}
+
+/* ===== PROGRAMS ===== */
+
+.program-box{
+background:white;
+margin:20px 0;
+padding:20px;
+border-radius:8px;
+box-shadow:0 6px 18px rgba(0,0,0,0.08);
+cursor:pointer;
+transition:0.3s;
+}
+
+.program-box:hover{
+transform:translateY(-4px);
+}
+
+.program-content{
+max-height:0;
+overflow:hidden;
+transition:max-height 0.4s ease;
+}
+
+.program-box.active .program-content{
+max-height:200px;
+margin-top:10px;
+}
+
+/* ===== QUIZ PAGE ===== */
+
+#quizSection{
+margin-top:20px;
+}
+
+#questionBox{
+background:white;
+padding:20px;
+border-radius:6px;
+box-shadow:0 4px 10px rgba(0,0,0,0.08);
+}
+
+#timer{
+font-weight:bold;
+color:#c0392b;
+margin-bottom:10px;
+}
+
+/* ===== CERTIFICATE ===== */
+
+.certificate{
+display:none;
+padding:40px;
+text-align:center;
+}
+
+.cert-border{
+border:10px solid #003366;
+padding:40px;
+background:white;
+max-width:900px;
+margin:auto;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.cert-logo{
+width:80px;
+margin-bottom:10px;
+}
+
+.certificate h1{
+font-size:36px;
+color:#003366;
+}
+
+.certificate h2{
+font-size:28px;
+margin:15px 0;
+}
+
+.cert-footer{
+margin-top:40px;
+display:flex;
+justify-content:space-between;
+padding:0 60px;
+}
+
+/* ===== FOOTER ===== */
+
+footer{
+background:#001a33;
+color:white;
+padding:50px 0;
+text-align:center;
+}
+
+footer a{
+color:#ccc;
+text-decoration:none;
+}
+
+footer a:hover{
+color:white;
+}
+
+/* ===== PRINT MODE (CERTIFICATE) ===== */
+
+@media print{
+
+body *{
+visibility:hidden;
+}
+
+#certificateSection,
+#certificateSection *{
+visibility:visible;
+}
+
+#certificateSection{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+}
+
+button{
+display:none;
+}
+
+
+}
