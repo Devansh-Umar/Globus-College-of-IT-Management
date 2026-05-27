@@ -10,7 +10,7 @@ max-width:1200px;
 margin:auto;
 }
 
-//TOP BAR
+/* TOP BAR */
 
 .top-bar{
 background:#002147;
@@ -24,7 +24,7 @@ display:flex;
 justify-content:space-between;
 }
 
-//HEADER
+/* HEADER */
 
 .header{
 background:white;
@@ -58,7 +58,7 @@ font-size:14px;
 color:#666;
 }
 
-/* ===== NAVBAR ===== */
+/* NAVBAR */
 
 .navbar{
 width:100%;
@@ -84,7 +84,7 @@ font-weight:500;
 background:#0055aa;
 }
 
-/* ===== HERO SECTION ===== */
+/* HERO SECTION */
 
 .hero{
 background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
@@ -103,7 +103,7 @@ color:white;
 font-size:48px;
 }
 
-/* ===== SECTIONS ===== */
+/* SECTIONS */
 
 .section{
 padding:80px 0;
@@ -117,7 +117,7 @@ background:white;
 background:#f2f4f8;
 }
 
-/* ===== NOTICE BOARD ===== */
+/* NOTICE BOARD */
 
 .notice-box{
 background:white;
@@ -136,7 +136,7 @@ padding:8px 0;
 border-bottom:1px solid #eee;
 }
 
-/* ===== PROGRAMS ===== */
+/* PROGRAMS */
 
 .program-box{
 background:white;
@@ -163,7 +163,7 @@ max-height:200px;
 margin-top:10px;
 }
 
-/* ===== QUIZ PAGE ===== */
+/* QUIZ PAGE */
 
 #quizSection{
 margin-top:20px;
@@ -182,7 +182,7 @@ color:#c0392b;
 margin-bottom:10px;
 }
 
-/* ===== CERTIFICATE ===== */
+/* CERTIFICATE */
 
 .certificate{
 display:none;
@@ -221,7 +221,7 @@ justify-content:space-between;
 padding:0 60px;
 }
 
-/* ===== FOOTER ===== */
+/* FOOTER */
 
 footer{
 background:#001a33;
@@ -239,7 +239,7 @@ footer a:hover{
 color:white;
 }
 
-/* ===== PRINT MODE (CERTIFICATE) ===== */
+/* PRINT MODE (CERTIFICATE) */
 
 @media print{
 
