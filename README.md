@@ -16,15 +16,15 @@ This project is a part of my NIELIT O-Level (IT) course. It is a responsive educ
 * Embedded social media links
 * Interactive navigation and user-friendly interface
 
-## Project Background
+## Purpose behind this Project 
 
 As an Electrical and Instrumentation Engineering student, I primarily work on hardware-based projects and laboratory experiments. I chose a web development project for my O-Level submission so that, I can revise and apply the concepts, I've learned during the course.
 
-## Live Demo
+## Visit to Website (link)
 
 https://devansh-umar.github.io/Globus-College-of-IT-Management/
 
-## Project Preview
+## Project Snapshot
 
 ### Home Page
 <img width="1757" height="881" alt="image" src="https://github.com/user-attachments/assets/767271dd-8121-4e3c-886a-15131d847e03" />
