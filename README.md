@@ -20,18 +20,17 @@ This project is a part of my NIELIT O-Level (IT) course. It is a responsive educ
 
 As an Electrical and Instrumentation Engineering student, I primarily work on hardware-based projects and laboratory experiments. I chose a web development project for my O-Level submission so that, I can revise and apply the concepts, I've learned during the course.
 
-## Visit to Website (link)
+## Visit the Website
 
-https://devansh-umar.github.io/Globus-College-of-IT-Management/
+[Open Website](https://devansh-umar.github.io/Globus-College-of-IT-Management/)
 
 ## Project Visual Demo
 
-Project Demo.mp4
+[Watch Demo](https://github.com/Devansh-Umar/Globus-College-of-IT-Management/blob/main/Project%20Demo.mp4)
 
-## Project Design & Development Flows
+## Project Design & Development Flow
 
-Project Design and Development Flow.pdf
-
+[View Workflow](https://github.com/Devansh-Umar/Globus-College-of-IT-Management/blob/main/Project%20Design%20and%20Development%20Flow.pdf)
 ## Project Snapshot
 
 ### Home Page
