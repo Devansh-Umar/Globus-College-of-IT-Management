@@ -24,6 +24,14 @@ As an Electrical and Instrumentation Engineering student, I primarily work on ha
 
 https://devansh-umar.github.io/Globus-College-of-IT-Management/
 
+## Project Visual Demo
+
+Project Demo.mp4
+
+## Project Design & Development Flows
+
+Project Design and Development Flow.pdf
+
 ## Project Snapshot
 
 ### Home Page
